@@ -1,0 +1,48 @@
+{
+  "random_seed": 42,
+  "n_total": 1030,
+  "n_train": 720,
+  "n_validation": 155,
+  "n_test": 155,
+  "ridge_best_validation": {
+    "alpha": 10.0,
+    "mae": 9.404465930345554,
+    "rmse": 11.731466578840038,
+    "r2": 0.581034097050106
+  },
+  "forest_best_validation": {
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "max_features": 1.0,
+    "mae": 3.7531986008552995,
+    "rmse": 5.222390287089763,
+    "r2": 0.9169742677700495
+  },
+  "boosting_best_validation": {
+    "n_estimators": 400,
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "min_samples_leaf": 1,
+    "mae": 3.3319776644015833,
+    "rmse": 5.034050123113736,
+    "r2": 0.922854759855092
+  },
+  "selected_model_by_validation": "gradient_boosting",
+  "test_metrics": {
+    "ridge_regression": {
+      "mae": 7.8245936213903144,
+      "rmse": 9.698353042202283,
+      "r2": 0.6407830406196757
+    },
+    "random_forest": {
+      "mae": 3.4876111640760796,
+      "rmse": 4.93652590889122,
+      "r2": 0.9069312898347301
+    },
+    "gradient_boosting": {
+      "mae": 2.778042855808877,
+      "rmse": 4.161097532575993,
+      "r2": 0.9338733313125493
+    }
+  }
+}
