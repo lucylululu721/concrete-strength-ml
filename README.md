@@ -126,4 +126,4 @@ The reference run used Python 3.11.7, NumPy 1.26.4, pandas 2.1.4, scikit-learn 1
 
 - Dataset: Yeh, I.-C. (1998), *Concrete Compressive Strength*, UCI Machine Learning Repository, DOI 10.24432/C5PK67.
 - Machine-learning implementation uses pandas, NumPy, Matplotlib, joblib, and scikit-learn.
-AI was used to assist with coding, debugging.
+- AI was used to assist with coding, debugging.
