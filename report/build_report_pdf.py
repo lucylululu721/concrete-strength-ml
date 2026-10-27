@@ -107,7 +107,8 @@ story = [
     Paragraph("Siyu Lu (G2509922G)", center),
     Paragraph(
         'Course: Machine Learning Mini-Project &nbsp;&nbsp; | &nbsp;&nbsp; '
-        'GitHub: <font color="#204a87">github.com/lucylululu721/concrete-strength-ml</font>',
+        'GitHub: <link href="https://github.com/lucylululu721/concrete-strength-ml" color="#204a87">'
+        'https://github.com/lucylululu721/concrete-strength-ml</link>',
         center,
     ),
     Spacer(1, 3),
